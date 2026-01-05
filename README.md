@@ -92,14 +92,14 @@ All models are available on my Hugging Face profile: [https://huggingface.co/mud
 
 ## 📦 Published Packages
 
-**Total Package Downloads: 190+** | **Total Pub Points: 300** | **Active Maintenance**
+**Total Package Downloads per week: 190+** | **Total Pub Points: 300** | **Active Maintenance**
 
 ### 1. [dart_data_parser](https://pub.dev/packages/dart_data_parser) ![Pub Points](https://img.shields.io/pub/points/dart_data_parser?style=flat-square)
 
 A comprehensive utility library for parsing and transforming data types in Dart with **zero external dependencies**.
 
 **Package Statistics:**
-- 📥 **13+ Downloads** across Flutter & Dart projects
+- 📥 **100+ Downloads per week** across Flutter & Dart projects
 - 🏆 **150 Pub Points** (Excellent quality score)
 - ⭐ Verified Publisher: baijisoft.com
 - 🔄 Actively maintained
@@ -135,7 +135,7 @@ A comprehensive utility library for parsing and transforming data types in Dart 
 A universal emoji picker that works with any TextField in Flutter with **35+ categories** and **2700+ emojis**.
 
 **Package Statistics:**
-- 📥 **178+ Downloads** and growing
+- 📥 **250+ Downloads  per week** and growing
 - 🏆 **150 Pub Points** (Excellent quality score)
 - ⭐ Verified Publisher: baijisoft.com
 - 🔄 Regular updates with new features
@@ -546,7 +546,105 @@ A universal emoji picker that works with any TextField in Flutter with **35+ cat
 
 ## 🏆 Notable Projects
 
-### Mobile Applications (12+ Production Apps)
+### Mobile Applications (20+ Production Apps)
+
+#### 📺 InfoBulletin Player - Digital Signage Solution
+**Native Android Application**
+
+Transform any screen into a powerful communication tool for businesses, educational institutions, and public spaces. Advanced digital signage platform for creating, managing, and displaying dynamic and engaging content including advertising, announcements, schedules, and news.
+
+**Technical Stack:** Native Android (Kotlin/Java), Cloud Backend, Real-time Sync, Content Management System  
+**Platforms:** Android (Google Play Store)  
+**Key Technologies:** Remote management, Real-time content delivery, Media playback optimization, Background services, Multiple format support
+
+**Comprehensive Features:**
+- **Easy Content Management:** Intuitive interface for uploading videos, images, and text content with drag-and-drop functionality
+- **Flexible Scheduling:** Advanced content scheduling system for automated rotation and display planning
+- **Real-Time Updates:** Instant content push to all connected displays ensuring information is always current
+- **Multiple Format Support:** Comprehensive media handling including high-definition videos, crisp images, and smooth scrolling text
+- **Remote Control:** Centralized account management for controlling multiple screens across different locations
+- **Content Rotation:** Automated playlist management with customizable timing and transitions
+- **Display Optimization:** Screen resolution adaptation and content scaling for optimal viewing
+- **Offline Mode:** Local caching for uninterrupted display during connectivity issues
+- **Multi-Location Support:** Manage and monitor displays across different branches or facilities
+- **Performance Monitoring:** Track display uptime, content performance, and system health
+
+**Use Cases:**
+- Corporate communications and employee engagement
+- Retail advertising and product promotions
+- Educational institution announcements and schedules
+- Public space information displays
+- Restaurant menu boards and specials
+- Healthcare facility wayfinding and information
+- Event venues and conference centers
+
+---
+
+#### 📱 INDEL - Attendance Management
+**Hybrid Application**
+
+Enterprise attendance tracking system specifically designed for security personnel management. Features GPS-based check-ins, shift management, and comprehensive reporting for INDEL clients.
+
+**Technical Stack:** Hybrid mobile framework, Cloud infrastructure, GPS services  
+**Platforms:** iOS App Store, Google Play Store  
+**Key Technologies:** GPS verification, Offline mode, Data synchronization, Report generation  
+**Features:** GPS-based attendance marking, shift scheduling, client assignment, real-time reporting, offline capability with sync, photo verification, route tracking, comprehensive analytics
+
+---
+
+#### 🛡️ SES Live - Security Guard Tracking
+**Native Android & iOS Application**
+
+Real-time security guard tracking system designed for enhanced safety, accountability, and operational efficiency during duty hours. Features smart tracking modes with automated alerts and background operation.
+
+**Technical Stack:** Native iOS (Swift), Native Android (Kotlin/Java), Backend API, Real-time Database  
+**Website:** [sessecurity.ltd](https://sessecurity.ltd/)  
+**Key Technologies:** Real-time GPS tracking, Background services, Admin approval system, Automated alerts, Battery optimization
+
+**Comprehensive Features:**
+- **Real-Time Location Tracking:** Automatically tracks guard's live location once duty begins with secure database storage
+- **Duty-Based Activation:** Tracking initiates only after shift start request and admin approval
+- **Background Operation:** Continues tracking when app is minimized or screen is off with minimal battery consumption
+- **Shift Controls:** Guards request shift start/stop within app, tracking activates only after admin approval
+- **Automated Alerts:** Intelligent notification system for shift changes and location updates
+- **Admin Dashboard:** Complete control over shift approval, tracking management, and real-time monitoring
+- **Secure Data Storage:** All location data stored securely with proper access controls
+- **Battery Optimization:** Engineered for minimal battery consumption during long shifts
+
+---
+
+#### 🏠 HomeTrumpeter - Property Management System
+**Cross-Platform Flutter Application (Single Codebase)**
+
+Comprehensive property management platform revolutionizing property management for property managers, homeowners, tenants, and service providers with cutting-edge features and analytics.
+
+**Technical Stack:** Flutter/Dart (Single Codebase for all platforms), Backend API, Cloud Infrastructure  
+**Platforms:** Android, iOS, Web Portal  
+**Website:** [hometrumpeter.com](https://hometrumpeter.com/)  
+**Customer Portal:** [customer.hometrumpeter.com](https://customer.hometrumpeter.com/login)  
+**Key Technologies:** Flutter cross-platform framework, Stripe payment integration, Certn background checks, SignalWire communication, Real-time database, Video conferencing
+
+**Advanced Features:**
+- **Payment Collection & Processing:** Automated and manual rent collection via Stripe with secure transaction records
+- **Maintenance Tracking:** Issue tracking and progress monitoring for property maintenance requests from tenants and managers
+- **Secure Communication:** Three-way secure messaging between tenants, property managers, and service providers
+- **Service Provider Network:** Connect with verified service experts for repairs and maintenance scheduling
+- **Tenant Management:** Pre-screening, background checks (Certn integration), application handling, and onboarding
+- **Remote Video Consultation:** In-app video conferencing for real-time maintenance consultations with service experts
+- **Automated Payment System:** Secure online rent payments with bank account integration
+- **Graphical Analytics:** Comprehensive metrics and visual presentations of transactions and service requests
+- **Background Check Integration:** Certn integration for thorough tenant and service provider verification
+- **Document Management:** Rental agreements, lease documents, and contract management
+- **Property Portfolio:** Multi-property management from a single dashboard
+- **Financial Reporting:** Detailed transaction history, income/expense tracking, and financial analytics
+
+**Single Codebase Architecture:**
+- **Unified Development:** Entire product built on single Flutter codebase reducing development time and maintenance costs
+- **Consistent UX:** Identical user experience across Android, iOS, and web platforms
+- **Efficient Updates:** Simultaneous feature updates across all platforms
+- **Cost-Effective:** Reduced development and maintenance overhead with single codebase
+
+---
 
 #### 🏊 Pool Synergy Calculator
 **Native iOS & Android Application**
@@ -654,71 +752,7 @@ Full-featured booking platform for restaurant table reservations with integrated
 **Key Technologies:** PayPal API, Phone integration, Real-time availability, Booking engine  
 **Features:** Real-time table availability, instant booking confirmation, phone call booking option, PayPal payment integration, cash on delivery option, booking history, special requests handling, venue information
 
----
 
-#### 📱 INDEL - Attendance Management
-**Hybrid Application**
-
-Enterprise attendance tracking system specifically designed for security personnel management. Features GPS-based check-ins, shift management, and comprehensive reporting for INDEL clients.
-
-**Technical Stack:** Hybrid mobile framework, Cloud infrastructure, GPS services  
-**Platforms:** iOS App Store, Google Play Store  
-**Key Technologies:** GPS verification, Offline mode, Data synchronization, Report generation  
-**Features:** GPS-based attendance marking, shift scheduling, client assignment, real-time reporting, offline capability with sync, photo verification, route tracking, comprehensive analytics
-
----
-
-#### 🛡️ SES Live - Security Guard Tracking
-**Native Android & iOS Application**
-
-Real-time security guard tracking system designed for enhanced safety, accountability, and operational efficiency during duty hours. Features smart tracking modes with automated alerts and background operation.
-
-**Technical Stack:** Native iOS (Swift), Native Android (Kotlin/Java), Backend API, Real-time Database  
-**Website:** [sessecurity.ltd](https://sessecurity.ltd/)  
-**Key Technologies:** Real-time GPS tracking, Background services, Admin approval system, Automated alerts, Battery optimization
-
-**Comprehensive Features:**
-- **Real-Time Location Tracking:** Automatically tracks guard's live location once duty begins with secure database storage
-- **Duty-Based Activation:** Tracking initiates only after shift start request and admin approval
-- **Background Operation:** Continues tracking when app is minimized or screen is off with minimal battery consumption
-- **Shift Controls:** Guards request shift start/stop within app, tracking activates only after admin approval
-- **Automated Alerts:** Intelligent notification system for shift changes and location updates
-- **Admin Dashboard:** Complete control over shift approval, tracking management, and real-time monitoring
-- **Secure Data Storage:** All location data stored securely with proper access controls
-- **Battery Optimization:** Engineered for minimal battery consumption during long shifts
-
----
-
-#### 🏠 HomeTrumpeter - Property Management System
-**Cross-Platform Flutter Application (Single Codebase)**
-
-Comprehensive property management platform revolutionizing property management for property managers, homeowners, tenants, and service providers with cutting-edge features and analytics.
-
-**Technical Stack:** Flutter/Dart (Single Codebase for all platforms), Backend API, Cloud Infrastructure  
-**Platforms:** Android, iOS, Web Portal  
-**Website:** [hometrumpeter.com](https://hometrumpeter.com/)  
-**Customer Portal:** [customer.hometrumpeter.com](https://customer.hometrumpeter.com/login)  
-**Key Technologies:** Flutter cross-platform framework, Stripe payment integration, Certn background checks, SignalWire communication, Real-time database, Video conferencing
-
-**Advanced Features:**
-- **Payment Collection & Processing:** Automated and manual rent collection via Stripe with secure transaction records
-- **Maintenance Tracking:** Issue tracking and progress monitoring for property maintenance requests from tenants and managers
-- **Secure Communication:** Three-way secure messaging between tenants, property managers, and service providers
-- **Service Provider Network:** Connect with verified service experts for repairs and maintenance scheduling
-- **Tenant Management:** Pre-screening, background checks (Certn integration), application handling, and onboarding
-- **Remote Video Consultation:** In-app video conferencing for real-time maintenance consultations with service experts
-- **Automated Payment System:** Secure online rent payments with bank account integration
-- **Graphical Analytics:** Comprehensive metrics and visual presentations of transactions and service requests
-- **Background Check Integration:** Certn integration for thorough tenant and service provider verification
-- **Document Management:** Rental agreements, lease documents, and contract management
-- **Property Portfolio:** Multi-property management from a single dashboard
-- **Financial Reporting:** Detailed transaction history, income/expense tracking, and financial analytics
-
-**Single Codebase Architecture:**
-- **Unified Development:** Entire product built on single Flutter codebase reducing development time and maintenance costs
-- **Consistent UX:** Identical user experience across Android, iOS, and web platforms
-- **Efficient Updates:** Simultaneous feature updates across all platforms
-- **Cost-Effective:** Reduced development and maintenance overhead with single codebase
 
 ### Web Applications
 

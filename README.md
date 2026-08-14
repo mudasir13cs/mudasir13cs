@@ -448,6 +448,11 @@ A universal emoji picker that works with any TextField in Flutter with **35+ cat
 - **Best Practices:** OWASP guidelines, Secure coding, API security
 - **Compliance:** GDPR considerations, Data privacy
 
+#### Automation & AI Agents
+- **Workflow Automation:** n8n, Zapier, Make (Integromat), Custom automation pipelines
+- **Agentic AI Systems:** Autonomous agents, Multi-agent orchestration, Task automation, LLM-powered workflows
+- **AI Chatbots:** KakaoTalk bots, Social media chatbots (Facebook Messenger, Instagram, WhatsApp), Website chat widgets, WordPress chatbot integrations/plugins
+
 #### Project Management & Agile
 - **Methodologies:** Agile, Scrum, Kanban
 - **Tools:** Jira, Trello, Asana, Linear

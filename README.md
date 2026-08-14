@@ -808,7 +808,7 @@ Full-featured booking platform for restaurant table reservations with integrated
 Full-featured e-commerce platform.
 - [Visit Website](http://hayatgalleria.com/)
 
-#### 🏫 School Management System
+Top Languages
 Comprehensive school management system for St Peters School Karachi.
 - Student management, attendance, grades, and reporting
 
@@ -821,9 +821,9 @@ Comprehensive school management system for St Peters School Karachi.
 
 ## 📊 GitHub Statistics
 
-![Mudasir's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mudasir13cs&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
+![Mudasir's GitHub Stats](https://github-stats-extended.vercel.app/api?username=mudasir13cs&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mudasir13cs&layout=compact&theme=radical&hide_border=true)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=mudasir13cs&layout=compact&theme=radical&hide_border=true)
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mudasir13cs&theme=radical&hide_border=true)
 

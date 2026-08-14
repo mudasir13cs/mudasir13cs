@@ -1,13 +1,14 @@
 # Hi there, I'm Mudasir! 👋
 
-## 🚀 AI Researcher | Full Stack Developer | Mobile App Specialist
+## 🚀 Software Team Lead | AI/ML Engineer | Full Stack Developer
 
 > *Driven researcher and developer passionate about bridging cutting-edge AI technology with real-world applications through innovative software solutions.*
 
 📍 **Based in Seoul, South Korea**  
-🎓 **MS in AI Convergence** - Soongsil University (Completed January 2026)  
-🔬 **Research Assistant** at Soongsil University (March 2024 - Present)  
-💼 **Full Stack Developer** at Cublick Digital Co., Ltd. (Part-time)
+🎓 **MS in AI Convergence** - Soongsil University (Completed February 2026)  
+💼 **Software Team Lead & AI/ML Engineer** at Ecoda Co., Ltd. (April 2026 - Present)  
+🔬 **Research Assistant** at Soongsil University (March 2024 - January 2026)  
+💻 **Full Stack Developer** at Cublick Digital Co., Ltd. (Part-time, March 2024 - March 2026)
 
 ---
 
@@ -87,6 +88,42 @@ All models are available on my Hugging Face profile: [https://huggingface.co/mud
    - Parameters: 4B
    - Optimization: Quantized model with 75% size reduction
    - Description: Optimized GGUF version for production deployment in real-time applications
+
+### Floor-Plan Vision-Language & Detection Models
+
+6. **[qwen25-vl-3b-floorplan-sft](https://huggingface.co/mudasir13cs/qwen25-vl-3b-floorplan-sft)**
+   - Type: Image-to-Text (Vision-Language)
+   - Base Model: Qwen2.5-VL-3B-Instruct — LoRA SFT adapter (stage 1)
+   - Description: Supervised fine-tuning on the CubiCasa5K floor-plan dataset for structured floor-plan image understanding
+
+7. **[qwen25-vl-3b-floorplan-grpo](https://huggingface.co/mudasir13cs/qwen25-vl-3b-floorplan-grpo)**
+   - Type: Image-to-Text (Vision-Language)
+   - Base Model: Continues from the SFT adapter above — refined with GRPO reinforcement learning and geometric rewards (stage 2)
+   - Description: Reinforcement-learning-refined floor-plan understanding model for higher-accuracy structured extraction
+
+8. **[floorcad-yolov8n-detect](https://huggingface.co/mudasir13cs/floorcad-yolov8n-detect)**
+   - Type: Object Detection
+   - Architecture: YOLOv8n fine-tuned on Voxel51/FloorPlanCAD
+   - Description: Detects walls, doors, windows, stairs, and interior symbols on architectural CAD floor plans
+
+9. **[floorcad-yolov8n-seg](https://huggingface.co/mudasir13cs/floorcad-yolov8n-seg)**
+   - Type: Image Segmentation
+   - Architecture: YOLOv8n fine-tuned on Voxel51/FloorPlanCAD
+   - Description: Instance segmentation (boxes + masks) for walls, openings, stairs, and interior symbols
+
+### E-commerce Conversational AI Models
+
+10. **[E-commerce-query-rewriter-gguf](https://huggingface.co/mudasir13cs/E-commerce-query-rewriter-gguf)**
+    - Type: Text Generation (GGUF format)
+    - Parameters: 3B (Qwen2.5-3B-Instruct base)
+    - Description: Context-aware query rewriting for e-commerce conversational search, LoRA fine-tuned with Unsloth, optimized for llama.cpp inference
+
+11. **[E-commerce-intent-classifier-gguf](https://huggingface.co/mudasir13cs/E-commerce-intent-classifier-gguf)**
+    - Type: Text Generation (GGUF format)
+    - Parameters: 2B (Qwen2.5-1.5B-Instruct base)
+    - Description: Intent classification for e-commerce conversations, LoRA fine-tuned with Unsloth, optimized for llama.cpp inference
+
+**Dataset:** [ecommerce-query-rewriting](https://huggingface.co/datasets/mudasir13cs/ecommerce-query-rewriting) — 10,000-row context-aware conversational query rewriting dataset for e-commerce (CC-BY-SA-4.0)
 
 ---
 
@@ -459,7 +496,18 @@ A universal emoji picker that works with any TextField in Flutter with **35+ cat
 
 ## 💼 Professional Experience
 
-### Research Assistant (March 2024 - Present)
+### Software Team Lead & AI/ML Engineer (April 2026 - Present)
+**Ecoda Co., Ltd., Seoul, South Korea**
+
+Leading a software engineering team at an AI-driven research institute, combining technical leadership with hands-on AI/ML engineering:
+
+- **Team Leadership:** Leading a cross-functional software engineering team, owning technical direction, sprint planning, and delivery
+- **Floor-Plan AI:** Directing development of vision-language and computer vision models for architectural floor-plan understanding, including structured extraction, object detection, and segmentation
+- **Internal Automation:** Building AI-driven internal management system automation to streamline operational workflows
+- **Conversational AI:** Leading development of AI-powered chatbots and automation pipelines, including intent classification and query rewriting for conversational search
+- **Applied Research to Production:** Bridging research-grade AI (model fine-tuning, reinforcement learning, quantization) with production software engineering practices
+
+### Research Assistant (March 2024 - January 2026)
 **Soongsil University, Seoul, South Korea**
 
 **AI & Machine Learning Contributions:**
@@ -483,7 +531,7 @@ A universal emoji picker that works with any TextField in Flutter with **35+ cat
 - Mentored students in debugging, project development, and technical problem-solving
 - Graded assignments, projects, and lab work ensuring accuracy and adherence to academic standards
 
-### Full Stack Developer - Part-time (March 2024 - Present)
+### Full Stack Developer - Part-time (March 2024 - March 2026)
 **Cublick Digital Co., Ltd., Seoul, South Korea**
 
 **AI-Enhanced Digital Signage Development:**
@@ -796,10 +844,10 @@ Comprehensive school management system for St Peters School Karachi.
 
 ## 🎯 Current Focus
 
+- 👥 **Leadership:** Leading a software engineering team at Ecoda, bridging AI research with production delivery
+- 🏗️ **Floor-Plan AI:** Building vision-language and computer vision models (Qwen2.5-VL, YOLOv8) for architectural floor-plan understanding
+- 🤖 **Automation:** Developing internal management system automation and AI-powered chatbots
 - 🔬 **Research:** Advanced AI retrieval systems and document understanding
-- 🤖 **AI/ML:** Working with state-of-the-art LLMs and generative models
-- 📱 **Development:** Building AI-enhanced mobile and web applications
-- 📚 **Publishing:** Contributing to academic research in AI and ML
 - 🌟 **Open Source:** Developing and maintaining Dart/Flutter packages
 
 ---
@@ -834,11 +882,11 @@ Comprehensive school management system for St Peters School Karachi.
 ## 📈 Activity Overview
 
 ```text
-🔭 Currently working on: AI-powered retrieval systems and generative models
-🌱 Learning: Advanced LLM architectures and optimization techniques
+🔭 Currently working on: Floor-plan AI (vision-language & YOLO models), internal automation, and AI chatbots at Ecoda
+🌱 Learning: Reinforcement learning (GRPO) and advanced LLM optimization techniques
 👯 Open to collaborate on: AI/ML research, mobile development, open-source projects
-💬 Ask me about: Flutter, iOS development, AI/ML, retrieval systems, mobile apps
-⚡ Fun fact: I've developed apps downloaded by thousands of users worldwide!
+💬 Ask me about: AI/ML, LLMs, RAG, vision-language models, Flutter, iOS development
+⚡ Fun fact: I lead a software team building production AI systems end-to-end
 ```
 
 ---
@@ -897,4 +945,4 @@ Most of my projects are licensed under the MIT License - see individual reposito
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: August 2026*
